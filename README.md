@@ -14,8 +14,8 @@ chmod +x update-k8s.sh
 ```
 
 2. Open the script in a text editor and set the following variables:
-`NEW_VERSION`: The new version of Kubernetes that you want to update to.
-`CONTROL_PLANE_NODES`: An array of the names of the control plane nodes.
+* `NEW_VERSION`: The new version of Kubernetes that you want to update to.
+* `CONTROL_PLANE_NODES`: An array of the names of the control plane nodes.
 
 3. Run the script:
 ```
